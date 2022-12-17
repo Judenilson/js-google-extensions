@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Auto OPMET",
+  "description": "Extensão mensagem automática meteorológica",
+  "version": "1.0",
+  "author": "Judenilson Araujo Silva",
+  "permissions": ["storage", "activeTab" , "scripting", "webRequest"],  
+  "host_permissions": ["http://*/", "https://*/"],
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "js": ["scripts/popup.js"],
+    "default_title": "AutoOPMET",
+    "default_popup": "index.html",
+    "default_icon": "images/icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "css": ["style.css"],
+      "matches": [
+        "https://opmet.decea.mil.br/*"
+      ]
+    }
+  ]
+}
+
