@@ -1,3 +1,108 @@
 .login{
     background-color: black !important;
 }
+body{
+	background-color: #102636 !important;
+	font-size: 14px;
+}
+datatable-body-cell {
+    font-size: 18px;
+}
+rvr-surface-register {
+    display: none;
+}
+div#coded-message-metar-speci {
+    background-color: #aefba8;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: black;
+    font-size: larger;
+}
+a#observation-list {
+    font-size: 24px;
+}
+.btn{    
+	height: 60px;
+}
+.btn-primary {
+    background-color: #cb6c00 !important;
+    height: 60px;
+}
+button#insertButton {
+    width: 100%;
+    background: green;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    height: 60px;
+}
+.col-12.row.ng-untouched.ng-pristine.ng-valid {
+    display: none;
+}
+.col-12.row h3 {
+    display: none;
+}
+.col-3.p-0.form-group.mr-2.ng-untouched.ng-pristine.ng-valid {
+    display: none;
+}
+.col-12.row.ng-pristine.ng-valid.ng-touched {
+    display: none;
+}
+span.ng-star-inserted {
+    font-size: 18px;
+}
+.border.step-resume-box.col-12.shadow.pr-0 {
+    color: #bbb;
+}
+#step-resume-content[_ngcontent-c17] .step-resume-box[_ngcontent-c17] .step-resume[_ngcontent-c17] .title[_ngcontent-c17]{
+	color: #81eb4d;
+}
+.isActive[_ngcontent-c32] .step-number-white[_ngcontent-c32] {
+    fill: #ff8c00 !important;
+}
+#step-resume-content[_ngcontent-c17] .step-resume-box[_ngcontent-c17] .step-resume[_ngcontent-c17] .title[_ngcontent-c17]:not(.not-border){
+	color: #81eb4d;
+}
+.wrapper-steps[_ngcontent-c17] h2[_ngcontent-c17]{
+	color: unset !important;
+}
+span.step-title-text {
+    color: #6cabd9;
+    font-weight: lighter;
+}
+.step-number[_ngcontent-c32] {
+	fill: unset !important;
+}
+a#mensagens-meteorologicas {
+    font-size: x-large;
+}
+.bg-white {
+    background-color: #c9d5d5 !important;
+}
+.breadcrumb[_ngcontent-c7] {
+    background-color: #c9d5d5 !important;
+}
+.bg-white.border.border-left-blue.shadow.wrapper {
+    background-color: #c9d5d5 !important;
+}
+header.align-items-end.bg-white.justify-content-between.no-gutters.row.wrapper__header {
+    background-color: #c9d5d5 !important;
+}
+
+login-layout input.form-control {
+    font-size: xx-large;
+    height: 80px;
+}
+.input-group>.form-control:last-child {
+    font-size: xx-large;
+}
+button#btnLogin {
+    height: 400px;
+    font-size: xxx-large;
+    color: black;
+    font-weight: 300;
+}
+
+app-breadcrumb {
+    display: none;
+}
