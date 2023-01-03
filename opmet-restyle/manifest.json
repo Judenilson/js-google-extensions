@@ -5,7 +5,7 @@
   "version": "1.0",
   "author": "Judenilson Araujo Silva",
   "permissions": ["storage", "activeTab" , "scripting", "webRequest"],  
-  "host_permissions": ["http://*/", "https://*/"],
+  "host_permissions": ["http://*/", "https://*/", "https://opmet.decea.mil.br/webapp/*", "http://opmet.decea.mil.br/webapp/*"],
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -23,9 +23,9 @@
       "js": ["scripts/content.js"],
       "css": ["style.css"],
       "matches": [
-        "https://opmet.decea.mil.br/*"
+        "https://opmet.decea.mil.br/webapp/*",
+        "http://opmet.decea.mil.br/webapp/*"
       ]
     }
   ]
 }
-
