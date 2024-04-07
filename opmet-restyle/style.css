@@ -97,12 +97,41 @@ login-layout input.form-control {
     font-size: xx-large;
 }
 button#btnLogin {
-    height: 400px;
+    height: 300px;
     font-size: xxx-large;
     color: black;
     font-weight: 300;
 }
 
 app-breadcrumb {
+    height: 10px;
+}
+.breadcrumb{
+    padding: 0px;
+}
+
+.breadcrumb.align-items-left{
     display: none;
+}
+.breadcrumb[_ngcontent-c7]{
+    height: 1px;
+    padding: 0px;
+}
+.custom-alert-box[_ngcontent-c16]{
+    position: absolute;
+    top: 50px;
+    left: 780px;
+}
+
+.breadcrumb[_ngcontent-c7]   h1[_ngcontent-c7]{
+    display: none !important;
+}
+
+.breadcrumb[_ngcontent-c7]   ol[_ngcontent-c7]{ 
+    display: none !important;
+    margin-top: 0;
+    height: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0;
 }
